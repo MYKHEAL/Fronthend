@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:white;
+    color: black;
+    font-weight: 400;
+    line-height: 1.2;
+    max-width: 1700px;
+    margin: 0 auto;
+   
+    padding-bottom:200px;
+    
+}
+.header{
+    border-bottom: 1px solid;
+    display: flex;
+    padding: 1.5rem;
+}
+
+.logo{
+    padding-right: 10rem;
+
+}
+
+.header-logo{
+    width: 100%;
+}
+
+
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px ;
+}
+
+.navbar ul li{
+    list-style: none;
+    padding: 0 20px;
+    color: #555;
+    font-size: 1rem;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #555;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.signUp {
+  padding: 1rem 3rem;
+  margin-left: auto;
+  background-color: white;
+  border: 1px solid #8E8E8E;
+}
+
+
+.firstImage {
+    padding-left: 12rem;
+
+}
+
+.WhoWeAre{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
+    text-align: left;
+    padding-top: 7rem;
+    text-size-adjust: auto;
+    font-size: 3.0rem;
+}
+
+.smallLetters{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+;
+}
+
+.Help{
+   
+    color:#2995E2;
+}
+.BetterLife{
+    color: #2995E2;
+}
+
+.getStarted{
+    background-color: #2995E2;
+    padding: 0.5rem 1rem;
+    border: none;
+    text-decoration: none;
+    font-size: 1rem;
+    box-shadow: 5px 5px;
+   
+}
+
+.watchOurStory{
+    padding-left: 5rem;
+    font-size: 1.8rem;
+}
+
+.aboutUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 3rem;
+}
+
+.Story{
+    justify-content: center;
+    color: #4F4F4F;
+    size: 19px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.about{
+    display: flex;
+     font-size:44px;
+    color: #3F3F3F;
+    gap: 2rem;
+    padding-right: 6rem;
+
+}
+.about2{
+    padding-left: 1px;
+}
+    
+
+.aboutUs.Cloud{
+    padding-right: 3rem;
+}
+.sectionSection{
+    text-align: left;
+    padding-top: 5rem;
+    gap: 2rem;
+    font-size: 12px ;
+    border-bottom: 5rem;
+
+}
+.services{
+    font-size: 40px;
+    color:#2995E2 ;
+    gap: 2rem;
+    border-bottom: 3rem;
+}
+
+.Template{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 3rem;
+}
+
+.TemplateText h2{
+    font-size: 30px;
+    color: #3F3F3F;
+    padding-bottom: 1rem;
+
+}
+
+.TemplateText p{
+    font-size: 20px;
+    color: #4F4F4F;
+    line-height: 1.6;
+}
+.everything{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: #2995E2;
+    padding: 80px;
+    border: none;
+    text-decoration: none;
+    position: relative;
+}
+
+.HouseImage{
+padding-left: 10rem;
+position: absolute;
+bottom: -45px;
+}
+
+.SpecialHelp h2{
+    font-size: 2.5rem;
+    color: white; 
+    line-height: 2;
+
+}
+
+
+.getInTouch{
+    font-size: 1.9rem;
+    box-shadow: 5px 5px;
+    /* padding: 0.5rem 1rem;; */
+    /* padding-bottom: 5rem; */
+}
+

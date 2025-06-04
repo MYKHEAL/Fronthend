@@ -1,0 +1,66 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.MainContainer{
+    padding:0;
+}
+.navBarContainer{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: space-between;
+    padding: 0px 70px;
+    color:#fff;
+    background-color: rgb(132, 132, 216);
+}
+
+.navLinks ul{
+    list-style:  none;
+    display:flex;
+    width: 500px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.navLinks a{
+ text-decoration:none;
+ color:#fff;
+ font-size: 25px;
+}
+
+
+.signUp button{
+    width:130px;
+    height: 35px;
+    font-size: 25px;
+    bottom: none;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+.searchContainer{
+    width:20px;
+   margin: auto;
+   padding:10px 0;
+   align-items: center;
+}
+
+.ImagesContainer img{
+    width:500px; 
+    height:500px
+}
+
+.ImagesContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.categoryAndPrice{
+    /* display: flex; */
+    justify-content: space-between;
+    font-family: "poppins", sans-serif;
+}

@@ -1,0 +1,101 @@
+
+ body {
+    font-family: Tahoma, sans-serif;
+    color: #444;
+    letter-spacing: 1px;
+    background-color: #f9f9f9;
+    margin: 0;
+}
+
+h1, h2 {
+    font-weight: normal;
+}
+
+#wrapper {
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid lightgray;
+    background-color: #fff;
+}
+
+.title {
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+    background-color: #333;
+}
+
+#page-banner form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#page-banner input, #add-activity input {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #444;
+}
+
+#page-banner button, #add-activity button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #5cb85c;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#page-banner button:hover, #add-activity button:hover {
+    background-color: #4cae4c;
+}
+
+#activities-list, #add-activity {
+    margin: 30px;
+}
+
+#activities-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#activities-list li {
+    padding: 20px;
+    border-left: 5px solid #ddd;
+    margin: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete {
+    background: #9361bf;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+.delete:hover {
+    background: #333;
+}
+
+#add-activity {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#add-activity input {
+    box-sizing: border-box;
+}

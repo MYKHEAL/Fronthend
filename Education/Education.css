@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:white;
+    color: black;
+    font-weight: 400;
+    line-height: 1.2;
+    max-width: 1700px;
+    margin: 0 auto;
+    padding-bottom:200px;
+}
+
+#header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 20px;
+   background-color:#79abf5 ;
+    padding: 0 50px;
+    /* position: fixed; */
+}
+  
+.logo-box{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Website-Logo{
+    width: 80px;
+    animation-name: grow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+.logo-box h3{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.nav-bar ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #666;
+}
+
+.nav-link:hover{
+    color: #000;
+    font-weight: 600;
+    transition: all 1s ease-in-out;
+    text-decoration: underline;
+    padding-bottom: 3px;
+}
+
+.signUp-btn{
+    font-size: 20px;
+    font-weight: 500;
+    background-color: blue;
+    color: #FFFFFF;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+.signUp-btn:hover{
+    background-color: rgb(183, 183, 236);
+    color: #111;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+
+@keyframes grow{
+    0%{
+        scale: 1;
+    }
+
+    50%{
+        scale: 1.2;
+    }
+    100%{
+        scale: 1;
+    }
+
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+  
+    gap: 3rem;
+    background-color: #79abf5;
+}
+
+
+.education h1{
+    font-size: 90px;
+     padding: 2rem;
+     color:  #063852;
+
+}
+.education span{
+    color: #2374EE;
+
+}
+
+.education p{
+    font-size: 20px;
+     padding: 2rem
+}
+
+
+.hero-image{
+    width: 100%;
+    height: 100%;
+
+}
+
+.two-places{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 3rem;
+}
+
+.place1-Text h2{
+    font-size: 30px;
+    color: #3F3F3F;
+    padding-bottom: 1rem;
+}
+
+.place1-Text p{
+    font-size: 20px;
+    color: #4F4F4F;
+    line-height: 1.6;
+}
+.place2-image{
+    padding-top: 20px;
+}
+.learn-more{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.our-Main{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 10rem;
+}
+.our-Main h1{
+    font-size: 30px;
+    color: #3F3F3F;
+}
+
+.three-place{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 20px;
+   background-color:#79abf5 ;
+    padding: 0 50px;
+}
+
+.School{
+     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 10rem;
+
+}
+
+
+
