@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.MainContainer{
+    padding: 0;
+}
+
+.navBarContainer{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: space-between;
+    padding: 0px 70px;
+    color: #fff;
+    background-color: #7747a3;
+
+}
+
+
+.navLinks ul{
+    list-style: none;
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.navLinks a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+.signUp button{
+    width: 130px;
+    height: 35px;
+    font-size: 25px;
+    bottom: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.searchContainer{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.searchContainer input{
+    padding: 10px 0;
+    align-items: center;
+    background-color: rgb(232, 238, 239);
+}
+
+.ImagesContainer img{
+    width: 350px; 
+    height: 500px;
+    background-color: rgb(181, 108, 148);
+   
+}
+
+.ImagesContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+     background-color: rgb(194, 210, 194);
+}
+
+.categoryAndPrice{
+    display: flex;
+    flex-direction: column;
+    color:black;
+    text-align: center;
+    
+    /* justify-content: space-between; */
+    font-family:  "poppins", sans-serif;
+    
+   
+}
+
+
+.productImage {
+     width: 80px;
+    animation-name: grow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+    
+
+
+.categoryAndPrice p{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+@keyframes grow{
+    0%{
+        scale: 1;
+    }
+
+    50%{
+        scale: 1.2;
+    }
+    100%{
+        scale: 1;
+    }
+
+
+}

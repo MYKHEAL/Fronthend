@@ -54,13 +54,20 @@
 }
 
 .ImagesContainer{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; */
 }
 
 .categoryAndPrice{
+    text-align: center;
     /* display: flex; */
     justify-content: space-between;
     font-family: "poppins", sans-serif;
+}
+.categoryAndPrice p{
+    font-weight: 500;
+     font-size: 18px;
 }

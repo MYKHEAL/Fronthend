@@ -43,7 +43,7 @@ const displayProducts = (products) => {
         `;
     
         productCard.classList.add("categoryAndPrice");
-        //productCard.style.backgroundColor = "blue"
+    productCard.style.backgroundColor = "#555"
 
      ImagesContainer.appendChild(productCard);
 
@@ -64,3 +64,22 @@ const displayProducts = (products) => {
 
     //       ImagesContainer.innerHTML += value; 
 }
+
+
+const searchBar = document.querySelector(".searchContainer input")
+
+searchBar.addEventListener("keyup", (event) =>{
+  const term = event.target.value.toLowerCase();
+  const products = ImagesContainer.querySelectorAll(".categoryAndPrice");
+
+  products.forEach((product) => {
+    const category = product.querySelector("p").textContent.toLowerCase();
+    //const price = product.querySelector("span").textContent;
+
+    if(category.toLowerCase().includes(term)){
+      product.style.display = "block";
+    } else{
+      product.style.display = "none";
+    }
+})
+});
