@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="artWork.css">
 </head>
 <body>
+  
 
 <!-- LOGIN/REGISTER SECTION -->
 <div class="access-container">
@@ -73,12 +74,23 @@
 <div id="details-section" style="display: none;">
   <h2>Artwork Details</h2>
   <div id="artwork-details" class="details-card"></div>
+  <div id="order-form" style="display:none; margin-top: 10px;">
+  <h4>Complete Your Order</h4>
+   <input type="number" id="order-payment" placeholder="Enter amount (₦)" required><br><br>
+
   <button onclick="showSection('home')">← Back to Home</button>
+   <button onclick="placeOrder()">Confirm Order</button>
 </div>
+</div>
+
 
 
   </main>
 </div>
+
+
+
+
 
 <script src="artWork.js"></script>
 </body>

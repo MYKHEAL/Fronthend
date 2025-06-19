@@ -1,4 +1,4 @@
-/* body {
+body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,7 +15,8 @@
   padding-top: 20px;
   margin: 0 auto;
   height: 100%;
-  background-image:url("photos/20250612_0030_image\ \(1\).png");
+  background-image:url("photos/20250612_0030_image\ \(1\).png"); */
+  background-color: #222;
   background-size: cover;
   background-position: center;
 }
@@ -27,7 +28,8 @@
     flex-wrap: wrap;
 }
 .container {
-  background-image:url("photos/20250612_0030_image\ \(1\).png");
+  background-image:url("photos/20250612_0030_image\ \(1\).png"); */
+  background-color: #222;
   padding: 30px;
   border-radius: 12px;
   width: 300px;
@@ -76,11 +78,12 @@ button:hover {
 
 #home-page {
   padding: 0;
-  background-image:url("photos/20250612_0030_image\ \(1\).png");
+  /* background-image:url("photos/20250612_0030_image\ \(1\).png"); */
+  background-color: #222;
 }
 
 #home-page header {
-  background-color:black;
+  background-color: #222;
   color: white;
   padding: 20px;
   text-align: center;
@@ -95,7 +98,7 @@ button:hover {
 }
 
 #home-page nav a {
-  color:black
+  color: white;
   text-decoration: none;
   font-weight: bold;
 }
@@ -115,7 +118,7 @@ button:hover {
 
 
 /* ---------------- Art List ---------------- */
-/* #art-list {
+#art-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 20px;
@@ -123,7 +126,7 @@ button:hover {
 }
 
 .art-card {
-  background: black;
+  background: white;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   overflow: hidden;
@@ -170,7 +173,7 @@ button {
 }
 
 .details-card {
-  background:white;
+  background: #fff;
   padding: 20px;
   margin: 30px auto;
   max-width: 500px;
@@ -184,5 +187,4 @@ button {
   height: auto;
   border-radius: 8px;
   margin-bottom: 15px;
-} */
- 
+}
